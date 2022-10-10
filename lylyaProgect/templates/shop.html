@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <title>Каталог</title>
+</head>
+<body>
+<style>
+    body{
+    margin: 0;
+    background-color: #edebeb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bar_cotygory{
+    width: 28%;
+    margin: 1%;
+}
+.ls_products{
+    background-color: white;
+    width: 68%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 5px;
+}
+.content{
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+.ls{
+    list-style-type: none;
+    padding: 1%;
+    margin-top: 5px;
+}
+.but{
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0;
+    background-color: white;
+    box-shadow: 0 0 7px 1px rgb(0 0 0 / 20%);
+    cursor: pointer;
+}
+.but:hover{
+    background-color: rgb(229, 229, 229);
+}
+.card{
+    border-radius: 5px;
+    width: 144px;
+    height: 200px;
+    background-color: white;
+    margin: 0.5%;
+    box-shadow: 0 0 7px 1px rgb(0 0 0 / 20%);
+}
+.icon{
+    height: 60%;
+    width: 100%;
+}
+.icon img{
+    height: 100%;
+    border-radius: 5px;
+}
+.info{
+    height: 40%;
+    width: 100%;
+    background-color: #dddcdc;
+    transform: translateZ(10px);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+</style>
+
+{% verbatim %}
+   <div class="content">
+       <div id="app"></div>
+   </div>
+{% endverbatim %}
+</body>
+</html>
